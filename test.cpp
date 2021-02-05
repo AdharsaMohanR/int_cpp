@@ -7,7 +7,7 @@ TEST(CalculatorTest,add){
 }
 TEST(CalculatorTest, sub){
     EXPECT_EQ(60,sub(80,20));
-    EXPECT_EQ(100,subt(80,-20));
+    EXPECT_EQ(100,sub(80,-20));
     EXPECT_EQ(-50,sub(-20,-30));
 }
 TEST(CalculatorTest,mul){
